@@ -1,6 +1,6 @@
 ## Screenshot
 
-![alt text](<Desktop Screenshot 2024.12.29 - 13.49.03.55.png>)
+![alt text](PrestoShop-1.png)
 
 ---
 # Presto Shop
@@ -47,7 +47,7 @@ The application offers a comprehensive set of features, including a dedicated re
 - **PHP**: >= 8.3
 - **Composer**: Installed on the system
 - **Node.js**: >= 16.x
-- **Database**: MySQL or compatible
+- **Database**: MySQL
 
 ---
 
@@ -57,8 +57,7 @@ Follow these steps to clone and configure the project:
 
 1. **Clone the repository**:
    ```bash
-   git clone <your-repository-ssh-key>
-   cd <repository-folder-name>
+   git clone git@github.com:GioJourney/E-commerce-website.git
    ```
 
 2. **Install PHP dependencies**:
@@ -66,7 +65,7 @@ Follow these steps to clone and configure the project:
    composer install
    ```
 
-3. **Create the `.env` file**:
+3. **Create the `.env` file and set your username and password in it**:
    ```bash
    cp .env.example .env
    ```
